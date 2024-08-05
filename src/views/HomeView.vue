@@ -77,7 +77,7 @@ const animateModelRotation = () => {
   requestAnimationFrame(animateModelRotation)
   if (model) {
     model.rotation.y += 0.01
-    model.rotation.x += 0.001
+    //model.rotation.x += 0.001
   }
 }
 
